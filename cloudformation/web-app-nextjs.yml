@@ -119,7 +119,7 @@ Resources:
           set -ex
           yum update -y && yum install git nodejs -y
           git clone https://github.com/spoudeluno/Assignment8.git
-          cd Demo
+          cd Assignment8
           npm i
           npm i pm2 -g
           npx prisma migrate reset --force && npx prisma migrate dev --name init
